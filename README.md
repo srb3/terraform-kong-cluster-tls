@@ -13,7 +13,7 @@ a Kong cluster using shared mode clustering
 
 ```HCL
 module "tls" {
-  source   = "srb3/tls/kong-cluster"
+  source   = "srb3/cluster-tls/kong"
 }
 ...
 ...
